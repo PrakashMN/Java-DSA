@@ -14,7 +14,7 @@ public class largestinArr {
    }
 
    public static int large(int[] var0) {
-      int var1 = -9999999;
+      int var1 = Integer.MIN_VALUE;
 
       for(int var2 = 0; var2 < var0.length; ++var2) {
          if (var0[var2] > var1) {
