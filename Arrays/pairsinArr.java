@@ -1,3 +1,5 @@
+// PRINTS ALL POSSIBLE PAIRS IN AN ARRAY
+
 import java.util.Scanner;
 
 public class pairsinArr {

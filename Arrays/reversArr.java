@@ -1,3 +1,5 @@
+// PRINTS THE ARRAY IN REVERSE ORDER
+
 import java.util.Scanner;
 
 public class reversArr {
