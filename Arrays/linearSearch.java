@@ -1,4 +1,4 @@
-public class largestinArr {
+public class linearSearch {
     public static int linearS(int arr[],int key){
         for(int i=0;i<arr.length;i++){
             if(key==arr[i]){
