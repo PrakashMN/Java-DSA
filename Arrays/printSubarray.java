@@ -13,8 +13,6 @@ public class printSubarray {
                 ts++;
                 System.out.println();
             }
-            int subsum=i;
-            System.out.println(subsum);
             System.out.println();
         }
 
