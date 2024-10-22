@@ -21,7 +21,7 @@ public class maxSubArrSum{
         System.out.println("max sum = "+maxSum);
     }
     public static void main(String[] args) {
-        int amr[]={2,4,6,8,10};
+        int amr[]={1,-2,6,-1,3};
         maxSubArrSum(amr);
     }
 }
