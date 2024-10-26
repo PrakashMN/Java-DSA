@@ -1,3 +1,6 @@
+//A coding problem to find the maximum profit from buying and selling a stock on different days. Given an array of prices, return the best buy and sell dates and the profit
+
+
 public class buyandSellStock {
     public static int buyandsellstock(int prices[]){
         int buyPrice = Integer.MAX_VALUE;
