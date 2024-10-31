@@ -1,3 +1,6 @@
+//Counting Sort is a non-comparison-based sorting algorithm. It is particularly efficient when the range of input values is small compared to the number of elements to be sorted.
+
+
 public class countingSort {
     public static void countSort(int arr[]){
         int largest = Integer.MIN_VALUE;
