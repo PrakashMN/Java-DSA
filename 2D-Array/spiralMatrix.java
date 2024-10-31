@@ -21,12 +21,18 @@ public class spiralMatrix {
             //bottem
 
             for(int j=endCol-1;j>=startCol;j--){
+                if(startRow == endRow){
+                    break;
+                }
                 System.out.println(arr[endRow][j] +" ");
             }
 
             //left
 
             for(int i=endRow-1;i>=startRow+1;i--){
+                if(startCol == endCol){
+                    break;
+                }
                 System.out.println(arr[i][startCol]+" ");
             }
 
