@@ -1,3 +1,5 @@
+//Spiral Matrix - Given an m x n matrix, return all elements of the matrix in spiral order.
+
 public class spiralMatrix {
     public static void printSpiralMatrix(int arr[][]){
         int startRow = 0;
