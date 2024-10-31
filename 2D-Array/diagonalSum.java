@@ -1,3 +1,5 @@
+//Matrix Diagonal Sum - Given a square matrix mat, return the sum of the matrix diagonals.
+
 public class diagonalSum {
 
     public static int diagonalSum(int arr[][]){
