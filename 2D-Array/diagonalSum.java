@@ -2,7 +2,7 @@
 
 public class diagonalSum {
 
-    public static int diagonalSum(int arr[][]){
+    public static int DiagonalSum(int arr[][]){
         int sum=0;
         for(int i=0;i<arr.length;i++){
             sum+=arr[i][i];
@@ -14,6 +14,6 @@ public class diagonalSum {
     }
     public static void main(String[] args) {
         int matrix[][]={{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
-        System.out.println("The diagonal sum is : "+diagonalSum(matrix));
+        System.out.println("The diagonal sum is : "+DiagonalSum(matrix));
     }
 }
