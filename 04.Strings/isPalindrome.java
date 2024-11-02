@@ -1,3 +1,5 @@
+// Palindrome is a word that reads the same forward and backward. Alphanumeric characters include letters and numbers.
+
 public class isPalindrome {
 
     public static boolean iSPalindrome(String str){
