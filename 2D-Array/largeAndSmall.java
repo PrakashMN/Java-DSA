@@ -10,6 +10,7 @@ public class largeAndSmall {
                 arr[i][j]=sc.nextInt();
             }
         }
+        sc.close();
     }
 
     public static void largest(int arr[][]){

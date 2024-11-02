@@ -23,5 +23,6 @@ public class reversArr {
             System.out.println(nums[i]+" ");
         }
         System.out.println();
+        sc.close();
     }
 }

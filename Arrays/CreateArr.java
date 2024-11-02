@@ -7,5 +7,6 @@ public class CreateArr {
         int numbers[]={5,8,12,15,17};
         String fruits[]=new String[5];
         String get[]={"jfjg","ojfgh","hdgfjh"};
+        sc.close();
     }
 }

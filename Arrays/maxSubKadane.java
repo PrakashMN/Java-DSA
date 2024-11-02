@@ -8,6 +8,7 @@ public class maxSubKadane {
         for(int i=0;i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
+        sc.close();
     }
     public static void kadanes(int arr[]){
         int ms=Integer.MIN_VALUE;

@@ -16,5 +16,6 @@ public class pairsinArr {
         Scanner sc=new Scanner(System.in);
         int arr[]={2,4,6,8,10};
         printpairs(arr);
+        sc.close();
     }
 }

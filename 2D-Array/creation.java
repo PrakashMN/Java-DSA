@@ -12,6 +12,7 @@ public class creation {
             }
             System.out.println();
         }
+        sn.close();
     }
 
     public static void printarr(int arr[][]){
@@ -43,6 +44,7 @@ public class creation {
         Scanner sc = new Scanner(System.in);
         int key=sc.nextInt();
         Searcharr(matric, key);
+        sc.close();
         
     }
 
