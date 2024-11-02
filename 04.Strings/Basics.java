@@ -3,7 +3,6 @@
 //02) String Length
 //03) String Concatination
 //04) String charAt Method
-import java.util.Scanner;
 
 public class Basics {
     public static void printLetters(String name){
