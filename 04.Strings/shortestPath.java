@@ -1,3 +1,5 @@
+//Given a route contaning 4 directions East,West,North,South find the shortest path to reach destinstion
+
 public class shortestPath {
     public static float getShortestPath(String path){
         int x=0,y=0;
