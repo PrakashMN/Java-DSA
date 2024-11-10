@@ -1,3 +1,5 @@
+// Java Program to Capitalize the First Letter of Each Word in a String
+
 public class firstLetterUppercase {
     public static String toUpperCase(String str){
         StringBuilder sb = new StringBuilder("");
