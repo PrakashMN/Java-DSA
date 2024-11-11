@@ -9,7 +9,6 @@ public class binarySearch {
         for(int i=0;i<arr.length;i++){
             arr[i]=df.nextInt();
         }
-        df.close();
     }
 
     public static int binaryS(int arr[],int key){
@@ -38,7 +37,12 @@ public class binarySearch {
         input(arr);
         System.out.println("Enter the key needed to search");
         int key=sc.nextInt();
-        System.out.println("Element Present at index : "+binaryS(arr, key));
-        sc.close();
+        int ju = binaryS(arr, key);
+        if(ju==-1){
+            System.out.println("Element not present");
+        }
+        else{
+            System.out.println("Element Present at index : "+binaryS(arr, key));
+        }
     }
 }

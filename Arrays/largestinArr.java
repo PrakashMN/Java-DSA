@@ -3,39 +3,37 @@
 import java.util.Scanner;
 
 public class largestinArr {
-   public largestinArr() {
-   }
 
-   public static void input(int[] var0) {
-      Scanner var4 = new Scanner(System.in);
+   public static void input(int[] arr) {
+      Scanner sd = new Scanner(System.in);
 
-      for(int var2 = 0; var2 < var0.length; ++var2) {
-         var0[var2] = var4.nextInt();
+      for(int i = 0; i < arr.length; ++i) {
+         arr[i] = sd.nextInt();
       }
-      var4.close();
+      sd.close();
 
    }
 
-   public static int large(int[] var0) {
-      int var1 = Integer.MIN_VALUE;
+   public static int large(int[] arr) {
+      int large = Integer.MIN_VALUE;
 
-      for(int var2 = 0; var2 < var0.length; ++var2) {
-         if (var0[var2] > var1) {
-            var1 = var0[var2];
+      for(int i = 0; i < arr.length; ++i) {
+         if (arr[i] > large) {
+            large = arr[i];
          }
       }
 
-      return var1;
+      return large;
    }
 
    public static void main(String[] var0) {
-      Scanner var1 = new Scanner(System.in);
+      Scanner sc = new Scanner(System.in);
       System.out.println("Enter the length of Array");
-      int var2 = var1.nextInt();
-      int[] var3 = new int[var2];
+      int length = sc.nextInt();
+      int[] arr = new int[length];
       System.out.println("Enter numbers in Array");
-      input(var3);
-      System.out.println("The Largest Number in the Array is : " + large(var3));
-      var1.close();
+      input(arr);
+      System.out.println("The Largest Number in the Array is : " + large(arr));
+      sc.close();
    }
 }

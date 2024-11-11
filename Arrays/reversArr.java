@@ -14,15 +14,15 @@ public class reversArr {
             first++;
             last--;
         }
+        for(int i=0;i<arr.length;i++){
+            System.out.println(arr[i]+" ");
+        }
+        System.out.println();
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int nums[]={4,12,25,84,1,32,65};
         reverseArr(nums);
-        for(int i=0;i<nums.length;i++){
-            System.out.println(nums[i]+" ");
-        }
-        System.out.println();
         sc.close();
     }
 }
