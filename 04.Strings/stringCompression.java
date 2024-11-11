@@ -1,3 +1,7 @@
+//String compression is essentially about identifying repeating patterns within a string and replacing them with shorter codes.
+// The goal is to reduce the size of the string while ensuring that all data can be perfectly retrieved during decompression.
+
+
 public class stringCompression {
     public static String compress(String str){
         String newStr = "";
