@@ -1,5 +1,5 @@
 public class oddOrEven {
-    public static void oddOrEven(int n){
+    public static void oddorEven(int n){
         int bitMask = 1;
         if((n & bitMask)==0){
             System.out.println( n+" is even");
@@ -9,7 +9,7 @@ public class oddOrEven {
         }
     }
     public static void main(String[] args) {
-        oddOrEven(5);
-        oddOrEven(6);
+        oddorEven(5);
+        oddorEven(6);
     }
 }
