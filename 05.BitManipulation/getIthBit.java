@@ -1,3 +1,5 @@
+//This method is used to find the bit at a particular position(say i) of the given number N.
+
 public class getIthBit {
     public static int getithbit(int n,int i){
         int bitMask = 1<<i;
