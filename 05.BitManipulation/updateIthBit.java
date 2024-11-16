@@ -1,3 +1,5 @@
+//This method update the requared bit at requared position
+
 public class updateIthBit {
     public static int clearithbit(int n,int i){
         int bitMask = ~(1<<i);
