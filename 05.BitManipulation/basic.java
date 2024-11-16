@@ -1,3 +1,5 @@
+// the all Operations given below are operated by Bitwise operators and prints the Value of it. 
+
 public class basic {
     public static void main(String[] args) {
         System.out.println(5&6); 
