@@ -11,6 +11,7 @@ public class updateIthBit {
     }
     public static int updateithbit(int n,int i,int newBit){
         // SOLUTION 1
+        
         /* if(newBit==0){
             return clearithbit(n, i);
         }
