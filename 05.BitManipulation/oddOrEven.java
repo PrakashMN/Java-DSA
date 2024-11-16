@@ -1,3 +1,5 @@
+//This method finds the given number is odd or even by performing Bitwise operation
+
 public class oddOrEven {
     public static void oddorEven(int n){
         int bitMask = 1;
