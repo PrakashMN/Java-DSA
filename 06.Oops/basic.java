@@ -29,3 +29,16 @@ class Student{
         percentage = (phy+chem+math)/3;
     }
 }
+
+class book{
+    String cover;
+    int pages;
+
+    void setColour(String newColour){
+        cover = newColour;
+    }
+
+    void setPages(int NoPages){
+        pages = NoPages;
+    }
+}
