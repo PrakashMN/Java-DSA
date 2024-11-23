@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class binarySearch {
 
     public static void input(int arr[]){
-        Scanner df=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         for(int i=0;i<arr.length;i++){
-            arr[i]=df.nextInt();
+            arr[i]=sc.nextInt();
         }
     }
 
@@ -29,14 +29,14 @@ public class binarySearch {
         return -1;
     }
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sd=new Scanner(System.in);
         System.out.println("Enter the size of Array");
-        int h=sc.nextInt();
+        int h=sd.nextInt();
         int arr[]=new int[h];
         System.out.println("Enter the Array in Increasing order");
         input(arr);
         System.out.println("Enter the key needed to search");
-        int key=sc.nextInt();
+        int key=sd.nextInt();
         int ju = binaryS(arr, key);
         if(ju==-1){
             System.out.println("Element not present");
