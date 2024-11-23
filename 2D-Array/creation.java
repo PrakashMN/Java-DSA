@@ -12,14 +12,13 @@ public class creation {
             }
             System.out.println();
         }
-        sn.close();
     }
 
     public static void printarr(int arr[][]){
         int m=3,n=3;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                System.out.println(arr[i][j]+" ");
+                System.out.print(arr[i][j]+" ");
             }
             System.out.println();
         }
