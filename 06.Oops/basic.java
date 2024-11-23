@@ -4,6 +4,10 @@ public class Basic {
         Pen p1 = new Pen();//created a Pen object called p1
         p1.setColor("Blue");
         System.out.println(p1.color);
+        bankAcount b1 = new bankAcount();
+        b1.userName="Prakash";
+        b1.setpassword("abcdftg");
+        
     }
 }
 
@@ -17,6 +21,14 @@ class Pen{
 
     void setTip(int newTip){
         tip = newTip;
+    }
+}
+
+class bankAcount{
+    public String userName;
+    private String  password;
+    public void setpassword(String pass){
+        password=pass;
     }
 }
 
