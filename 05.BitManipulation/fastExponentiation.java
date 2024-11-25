@@ -15,6 +15,6 @@ public class fastExponentiation {
         return ans;
     }
     public static void main(String[] args) {
-        System.out.println(FastExponentiation(2, 3));
+        System.out.println(FastExponentiation(6, 5));
     }
 }
