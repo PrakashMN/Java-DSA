@@ -24,7 +24,7 @@ public class shortestPath {
         return (float) Math.sqrt(X2+Y2);
     }
     public static void main(String[] args) {
-        String path = "WNEENESENNN"; //N : NORTH,E : EAST,S : SOUTH,W : WEST.
+        String path = "WNEENESSE"; //N : NORTH,E : EAST,S : SOUTH,W : WEST.
         System.out.println(getShortestPath(path));
     }
 }
