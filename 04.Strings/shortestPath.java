@@ -25,6 +25,7 @@ public class shortestPath {
     }
     public static void main(String[] args) {
         String path = "WNEENESSE"; //N : NORTH,E : EAST,S : SOUTH,W : WEST.
+        
         System.out.println(getShortestPath(path));
     }
 }
