@@ -1,4 +1,4 @@
-//Spiral Matrix - Given an m x n matrix, return all elements of the matrix in spiral order i.e from inner layer to outer layer and vice-verce
+//Spiral Matrix - Given an m x n matrix, return all elements of the matrix in spiral order i.e from inner layer to outer layer and vice-verce.
 
 public class spiralMatrix {
     public static void printSpiralMatrix(int arr[][]){
