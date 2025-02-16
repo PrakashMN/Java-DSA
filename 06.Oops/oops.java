@@ -84,7 +84,7 @@ class Student{
  public class oops {
  
     public static void main(String[] args) {
-        Student s1=new Student("Prakash");
+        Student s1=new Student("Prakash",18,21);
 
         
     }
@@ -93,8 +93,14 @@ class Student{
  class Student{
     String name;
     int roll;
-    Student(String name){
-
-        System.out.println("constructer is called" );
+    int age;
+    Student( String name,int roll,int age){
+    this.name=name;
+    this.roll=roll;
+        System.out.println("The Roll number is : "+roll);
+        System.out.println("The Name is : "+name);
+        System.out.println("Constructer is called" );
+        System.out.println("The Age is : "+age);
     }
  }
+
