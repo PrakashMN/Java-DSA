@@ -1,8 +1,8 @@
-public class oops {
+/* public class oops {
     public static void main(String[] args) {
         Pen p1 = new Pen();
         p1.setColor("Blue");
-        System.out.println("Pen color is : "+p1.getColor());
+        System.out.println("Pen color is : "+p1.gutColor());
         p1.setTip(5);
         p1.setTip(7);
         System.out.println("Tip Size is : "+p1.getTip());
@@ -20,7 +20,7 @@ public class oops {
         s1.chem(38);
         s1.calPercentage(67, 64, 87);
         System.out.println("Student Name is : "+s1.getName());
-        System.out.println("Student age is : "+s1.age);
+        System.out.println("Student age is : "+s1.getAge());
         System.out.println("Physics marks are : "+s1.phy);
         System.out.println("Chemistry Marks are : "+s1.chem);
         System.out.println("Maths marks are : "+s1.math);
@@ -34,7 +34,7 @@ class Pen{
     void setColor(String newColor){
         color=newColor;
     }
-    String getColor(){
+    String gutColor(){
         return this.color;
     }
     int getTip(){
@@ -64,6 +64,9 @@ class Student{
     void SetAge(int newAge){
         age=newAge;
     }
+    int getAge(){
+        return this.age;
+    }
     void math(int mathmarks){
         math=mathmarks;
 
@@ -75,3 +78,23 @@ class Student{
         chem=chemmarks;
     }
 } 
+ */
+
+
+ public class oops {
+ 
+    public static void main(String[] args) {
+        Student s1=new Student("Prakash");
+
+        
+    }
+ }
+
+ class Student{
+    String name;
+    int roll;
+    Student(String name){
+
+        System.out.println("constructer is called" );
+    }
+ }
