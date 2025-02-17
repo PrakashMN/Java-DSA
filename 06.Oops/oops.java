@@ -84,7 +84,8 @@ class Student{
  public class oops {
  
     public static void main(String[] args) {
-        Student s1=new Student("Prakash",18,21);
+        Student s1 =new Student("Prakash",18,21);
+        System.out.println(s1);
 
         
     }
