@@ -4,10 +4,12 @@ public class copyConstrucer {
         s1.name ="Prakash";
         s1.roll = 80;
         s1.password = "qwerty";
-        Student s2 = new Student(s1);
         s1.marks[0]= 67;
         s1.marks[1]= 89;
         s1.marks[2] = 58;
+
+        Student s2 = new Student(s1);
+        s2.password = "xyz";
     }
 }
 
@@ -19,6 +21,7 @@ class Student{
     int marks[];
     
     Student(Student s1){
+        marks = new int[3];
         this.name = s1.name;
         this.roll = s1.roll;
         this.marks = s1.marks;
