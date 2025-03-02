@@ -102,6 +102,7 @@ class Student{
         System.out.println("The Name is : "+name);
         System.out.println("Constructer is called" );
         System.out.println("The Age is : "+age);
+        System.out.println("The Age is : "+age);
     }
  }
 
