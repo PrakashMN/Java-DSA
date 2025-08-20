@@ -13,7 +13,11 @@ public class maxSubArrPre{
             int start=i;
             for(int j=i;j<arr.length;j++){
                 int end=j;
-                curSum=start==0 ?prefix[end]:prefix[end]-prefix[start-1];
+                if (start == 0) {
+                    curSum = prefix[end];  // Directly take prefix sum when starting from index 0
+                } else {
+                    curSum = prefix[end] - prefix[start - 1];  // Compute subarray sum using prefix array
+                }
                 if(maxSum<curSum){
                     maxSum=curSum;
                 }
