@@ -1,27 +1,26 @@
-//THIS PROGRAM IS USED TO PRINT THE TOTAL  SUM OF THE SUBARRAYS ARE PRESENT IN THE GIVEN ARRAY USING BRUTE FORCE TECHNIQUE
-
-public class maxSubArrSum{
-    public static void MaxSubArrSum(int arr[]){
-        int curSum=0;
-        int maxSum=Integer.MIN_VALUE;
+public class maxSubArrSum {
+    public static void maxsubsum(int arr[]){
+        int curr = 0;
+        int max = 0;
         for(int i=0;i<arr.length;i++){
-            int start=i;
+            int st = i;
             for(int j=i;j<arr.length;j++){
-                int end=j;
-                curSum=0;
-                for(int k=start;k<=end;k++){
-                    curSum+=arr[k];
+                int end = j;
+                curr = 0;
+                for(int k=st;k<=end;k++){
+                    curr += arr[k];
                 }
-                System.out.println(curSum);
-                if(maxSum<curSum){
-                    maxSum=curSum;
+                System.out.println(curr);
+                if(curr>max){
+                    max = curr;
                 }
+
             }
         }
-        System.out.println("max sum = "+maxSum);
+        System.out.println("max is : "+max);
     }
     public static void main(String[] args) {
-        int amr[]={1,-2,6,-1,3};
-        MaxSubArrSum(amr);
+        int arr[] ={2,4,6,8,10};
+        maxsubsum(arr); 
     }
 }
