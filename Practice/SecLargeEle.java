@@ -1,11 +1,10 @@
-/* Second Largest Element in an Array */
-
+/* The program to find the second largest element in an array */
 
 public class SecLargeEle {
-
-    public static int secLarge(int arr[]){
+    public static int secLarge(int[] arr) {
+        // code here
         int max = Integer.MIN_VALUE;
-        int secMax = Integer.MIN_VALUE;
+        int secmax = Integer.MIN_VALUE;
         if(arr.length<2){
             return -1;
         }
@@ -13,21 +12,23 @@ public class SecLargeEle {
             if(arr[i]>max){
                 max=arr[i];
             }
-            if(arr[i]>secMax&&arr[i]<max){
-                secMax =arr[i];
-            }else{
-                return -1;
+            if(arr[i]>secmax&&arr[i]<max){
+                secmax = arr[i];
             }
         }
+        if(secmax==Integer.MIN_VALUE){
+                return -1;
+            }
         
-
-        return secMax;
+        return secmax;
     }
+
     public static void main(String[] args) {
-        int arr[] = {10,10,10};
+        int arr[] = {12, 35, 1, 10, 34, 1};
         int res = secLarge(arr);
 
-        System.out.println("The Second Largest Element is : "+res);
+        System.out.println("The Second Largest Element is : " + res);
         
+
     }
 }
