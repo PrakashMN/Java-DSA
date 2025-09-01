@@ -29,7 +29,9 @@ Explanation:
 
 Apply the following operation twice to make the maximum achievable number equal to num:
 
-Decrease the maximum achievable number by 1, and increase num by 1. */
+Decrease the maximum achievable number by 1, and increase num by 1.
+
+*/
 
 
 public class maxAchivableNumber {
