@@ -1,5 +1,5 @@
 /* 
-3. Longest Substring Without Repeating Characters
+3. 
 Given a string s, find the length of the longest substring without duplicate characters.
 
  
